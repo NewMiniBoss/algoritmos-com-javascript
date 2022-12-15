@@ -12,7 +12,7 @@
 é necessário fazer download do arquivo e abrir em um editor código fonte como o ``Visual Studio Code`` 
 
 ```
-[https://github.com/NewMiniBoss/javascript-fundamentos.git](https://github.com/NewMiniBoss/javascript_para_back-end/archive/refs/heads/main.zip)
+https://github.com/NewMiniBoss/algoritmos-com-javascript/archive/refs/heads/main.zip)
 ```
 
 ## Tecnologias usadas no projeto 🚀
