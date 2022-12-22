@@ -15,5 +15,4 @@ function menorValor(arrayProduto, posicaoInicial) {
     return maisBarato
 }
 
-
 module.exports = menorValor;
