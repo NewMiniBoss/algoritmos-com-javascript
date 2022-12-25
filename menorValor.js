@@ -1,10 +1,10 @@
 function menorValor(arr, posicaoInicial) {
-    let livroMaisBarato = posicaoInicial
-    arr.forEach((_, indice) => {
-        if (arr[indice].preco < arr[livroMaisBarato].preco) {
-            livroMaisBarato = indice
+    let livroBarato = posicaoInicial
+    for (let i = posicaoInicial; i < arr.length; i++) {
+        if (arr[i].preco < arr[livroBarato].preco) {
+            livroBarato = i
         }
-    })
-    return livroMaisBarato
+    }
+    return livroBarato
 }
 module.exports = menorValor
