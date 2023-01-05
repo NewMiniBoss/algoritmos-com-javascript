@@ -13,7 +13,7 @@ function insertionSort(lista) {
             analise --;
         }
     }
-    console.log(livros)
+    console.log(livros);
 }
 
 insertionSort(livros)
